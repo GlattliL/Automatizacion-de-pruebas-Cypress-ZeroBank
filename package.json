@@ -1,0 +1,15 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "test de práctica",
+  "main": "index.js",
+  "scripts": {
+    "pruebas-chrome": "cypress run --speccypress/e2e/smoketestbanco.cy.js --browser chrome",
+    "tests2": ""
+  },
+  "author": "Glattli Lautaro",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  }
+}
